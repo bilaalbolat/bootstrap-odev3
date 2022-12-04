@@ -20,7 +20,8 @@
         <!-------------------------- NAVBAR-START ----------------------------->
     
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light d-flex flex-row align-items-center">
-            <a class="navbar-brand ml-0 ml-lg-4 pl-0 pl-lg-5" href="#">
+            <div class="container">
+            <a class="navbar-brand ml-0 ml-lg-0 pl-0 pl-lg-0" href="#">
                 <i class="fa-brands fa-linkedin" style="color: #0a66c2; font-size: 2.4rem"></i>
             </a>
 
@@ -33,7 +34,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto mr-5 pr-1">
+                <ul class="navbar-nav ml-auto">
 
                     <li>
                         <form class="form-inline ml-1 d-sm-none m-1 m-sm-none" style="width: 10rem;">
@@ -89,14 +90,15 @@
                             <span class="small pt-1 ml-2 ml-lg-0 pr-1 pr-lg-0 d-lg-none d-xl-block"><b>İş</b></span>
                         </a>
                     </li>
-                    <li class="nav-item pr-2 pr-lg-1 pl-2 pl-lg-2">
+                    <li class="nav-item pl-2 pl-lg-2">
                         <a class="nav-link d-flex flex-row flex-lg-column align-items-center" href="#">
                             <i class="fa-solid fa-chalkboard pr-1 pr-lg-0"></i>
                             <span class="small pt-1 pl-1 pl-lg-0 d-lg-none d-xl-block"><b>İş İlanı Yayınla</b></span>
                         </a>
                     </li>  
                 </ul>
-            </div>    
+            </div>
+        </div>
         </nav>
 
         <!-------------------------- NAVBAR-START ----------------------------->
@@ -142,7 +144,7 @@
                         </a>
                     </div>
 
-                    <div class="card mt-3"">
+                    <div class="card mt-3">
                         <div class="row no-gutters p-2">
                           <div class="col-md-2 d-flex align-items-center">
                             <img src="https://picsum.photos/id/182/400/400" class="card-img" alt="">
@@ -215,30 +217,32 @@
                 <div class="col-sm-12 col-md-6 mt-3 mt-md-0 ">
                     <div class="card w-100">
                         <div class="card-body">
-                            <form class="form-inline mx-auto">
-                                <input class="form-control rounded-pill w-100" type="search" style="font-family:Arial, FontAwesome; font-weight: 600; font-size: 15px;" placeholder="&#xF044;   Bir gönderi başlat" aria-label="Search">
+                        
+                            <form class="form-inline">
+                                <img class="rounded-circle mx-auto mr-sm-1 ml-sm-auto" src="https://picsum.photos/id/96/50/50" alt="">
+                                <input class="form-control rounded-pill w-75 mx-auto ml-sm-1 mr-sm-auto" type="search" style="font-family:Arial, FontAwesome; font-weight: 600; font-size: 15px;" placeholder="&#xF044;   Bir gönderi başlat" aria-label="Search">
                             </form>
-
+                            
                             <div class="text-center mt-3">
-                                <span>
+                                <span class="mx-2">
                                     <button type="button" class="btn btn-sm border-0 button-bg rounded">
                                         <img src="photomin.png" alt="" width="20px">
                                         <span>Fotoğraf</span>
                                     </button>
                                 </span>
-                                <span>
+                                <span class="mx-2">
                                     <button type="button" class="btn btn-sm border-0 button-bg rounded">
                                         <img src="videomin.png" alt="" width="20px">
                                         <span>Video</span>
                                     </button>
                                 </span>
-                                <span>
+                                <span class="mx-2">
                                     <button type="button" class="btn btn-sm border-0 button-bg rounded">
                                         <img src="calendarmin.png" alt="" width="20px">
                                         <span>Etkinlik</span>
                                     </button>
                                 </span>
-                                <span>
+                                <span class="mx-2">
                                     <button type="button" class="btn btn-sm border-0 button-bg rounded">
                                         <img src="notemin.png" alt="" width="20px">
                                         <span>Yazı yaz</span>
@@ -440,12 +444,142 @@
                 <!------------ RIGHT-PANEL ----------->
 
                 <div class="col-sm-12 col-md-3">
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-h5">Akışınıza ekleyin <span class="float-right"><i class="fa-solid fa-circle-exclamation"></i></span></h5>
+                            <ul class="list-unstyled mt-4 card-list">
+                                <li>
+                                    <p>
+                                        <a class="card-list" href="#"><img class="rounded-circle" src="https://picsum.photos/id/142/40/40" alt=""> Codecraft</a>
+                                        <span class="btn-right btn btn-outline-primary btn-sm rounded-pill float-right mt-1">+ Takip Et</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a class="card-list" href="#"><img class="rounded-circle" src="https://picsum.photos/id/182/40/40" alt=""> Podfresh</a>
+                                        <span class="btn-right btn btn-outline-primary btn-sm rounded-pill float-right mt-1">+ Takip Et</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a class="card-list" href="#"><img class="rounded-circle" src="https://picsum.photos/id/111/40/40" alt=""> Navlungo</a>
+                                        <span class="btn-right btn btn-outline-primary btn-sm rounded-pill float-right mt-1">+ Takip Et</span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+
+                      <div class="card mt-3">
+                        <div class="card-body">
+                            <h6 class="card-h6">Bugünün en çok izlenen eğitimleri<span class="float-right"><i class="fa-solid fa-circle-exclamation"></i></span></h6>
+                            
+                            <h6 class="card-title card-title-right ml-1 mt-4">1. The Six Morning Habits of High...</h6>
+                            <h6 class="card-subtitle card-subtitle-right mb-1 ml-3 text-muted"> Pete Mockatais</h6>
+
+                            <h6 class="card-title card-title-right ml-1 mt-3">2. Onconscious Blas</h6>
+                            <h6 class="card-subtitle card-subtitle-right mb-1 ml-3 text-muted"> Abdullatif Doğan</h6>
+                        
+                            <h6 class="card-title card-title-right ml-1 mt-3">1. Critical Thinking for Better...</h6>
+                            <h6 class="card-subtitle card-subtitle-right mb-1 ml-3 text-muted"> Furkan Omrak</h6>
+
+                            <a class="right-card-under text-center" href="#"><h6 class="right-card-under mt-4">Linkedin Learning'de daha fazlasını göster</h6></a>
+                        </div>
+                      </div>
+
+                      <div class="card border-0 mt-1 make-me-sticky2 overflow-auto">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 d-flex flex-row flex-wrap text-center align-items-center justify-content-center">
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Hakkında</p>
+                                    </a>
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Erişilebilirlik</p>
+                                    </a>
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Yardım Merkezi</p>
+                                    </a>
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Gizlilik ve Koşullar</p>
+                                    </a>
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Reklam Tercihleri</p>
+                                    </a>
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Reklam</p>
+                                    </a>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <h5 style="color: #0a66c2; font-size: .7rem;">Linked <span style="font-size: .8rem;"><i class="fa-brands fa-linkedin"></i></span><span class="text-muted ml-2" style="font-size: .6rem;">Linkedin Corporation <i class="fa-regular fa-copyright"></i> 2022</span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
 
                 </div>
             </div>
         </div>
 
         <!-------------------------- MIDDLEAREA-END ----------------------------->
+
+        <!-------------------------- MESSENGER-START ----------------------------->
+
+        <div class="container position-sticky fixed-bottom d-none d-lg-block">
+            <div class="row">
+                <div class="btn-group dropup ml-auto w-25 border-custom">
+                    <button type="button" class="btn-message btn btn-outline-secondary border-0 text-left rounded" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="rounded-circle" src="https://picsum.photos/id/96/30/30" alt="">
+                        <strong class="ml-1" style="font-size: 13px;">Mesajlaşma</strong>
+                        <span class="float-right"><i class="fas fa-chevron-up fa-sm ml-3"></i></span>
+                        <span class="float-right"><i class="fas fa-ellipsis-h fa-sm ml-3"></i></span>
+                        <span class="float-right"><i class="fa-solid fa-pen-to-square fa-sm ml-3"></i></span>      
+                    </button>
+
+                    <div class="dropdown-menu w-100">
+                        <div class="card">
+                            <div class="card-header">
+                              <strong>Mesajlar</strong>
+                            </div>
+                            <ul class="list-group list-group-flush message-list">
+                                <li class="list-group-item">
+                                    <a href="#">
+                                        G. Furkan Baran 
+                                        <span class="float-right">
+                                            <button style="pointer-events: none;" type="button" class="btn btn-sm btn-primary rounded-pill">
+                                                <span class="txt-badge text-light">4</span>
+                                            </button>
+                                        </span>
+                                     </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="#">
+                                        Furkan Omrak 
+                                        <span class="float-right">
+                                            <!-- <button style="pointer-events: none;" type="button" class="btn btn-sm btn-primary rounded-pill">
+                                                <span class="txt-badge rounded-circle">1</span>
+                                            </button> -->
+                                        </span>
+                                     </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="#">
+                                        Çağatay Doluel 
+                                        <span class="float-right">
+                                            <button style="pointer-events: none;" type="button" class="btn btn-sm btn-primary rounded-pill">
+                                                <span class="txt-badge rounded-circle">2</span>
+                                            </button>
+                                        </span>
+                                     </a>
+                                </li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- Optional JavaScript; choose one of the two! -->
